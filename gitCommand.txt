@@ -30,4 +30,5 @@ fix bug2
 git rebase ToGoalBranch
 git merge kinderBranch
 
-git what
+git rebase --onto master server client
+
