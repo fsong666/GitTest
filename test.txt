@@ -1,2 +1,4 @@
 hello test
 second changed
+
+added the new branch Fan
