@@ -18,3 +18,10 @@ git remote add name URL
 
 [bug]git rebase ToGoalBranch[master]
 [master]git merge otherbranch[bug]
+
+git rebase ToGoalBranch
+git merge kinderBranch
+
+git rebase --onto master server client
+fix bug1
+
