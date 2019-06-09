@@ -16,5 +16,5 @@ git push origin --delete remoteBranch
 git clone -o RemoteRepositoryName URL
 git remote add name URL
 
-master
-git rebase ToGoalBranch
+[bug]git rebase ToGoalBranch[master]
+[master]git merge otherbranch[bug]
