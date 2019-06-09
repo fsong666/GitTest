@@ -29,3 +29,5 @@ fix bug2
 
 git rebase ToGoalBranch
 git merge kinderBranch
+
+git what
