@@ -1,4 +1,5 @@
 git commit -a -m""
+git rm --cahed file
 
 git checkout file
 git checkout branchName
@@ -6,7 +7,8 @@ git checkout -b localBranch origin/branch
 
 git log --oneline --decorate --graph --all
 
-git branch -r 
+git branch -a
+ 
 git branch -r -d branchName
 git push orgin :branchName
 
