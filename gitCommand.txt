@@ -10,7 +10,8 @@ git log --oneline --decorate --graph --all
 git branch -a
  
 git branch -r -d branchName
-git push orgin :branchName
+git push origin :branchName
+git push origin --delete remoteBranch
 
 git clone -o RemoteRepositoryName URL
 git remote add name URL
