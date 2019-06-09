@@ -1,8 +1,9 @@
-git commit -a -m""
+git commit -m""
 git rm --cahed file
 
 git checkout file
 git checkout branchName
+#creat new branch and switch to it
 git checkout -b localBranch origin/branch
 
 git log --oneline --decorate --graph --all
@@ -15,6 +16,9 @@ git push origin --delete remoteBranch
 
 git clone -o RemoteRepositoryName URL
 git remote add name URL
+
+git remote -v
+git remote show origin
 
 [bug]git rebase ToGoalBranch[master]
 [master]git merge otherbranch[bug]
