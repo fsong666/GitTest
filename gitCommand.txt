@@ -18,3 +18,5 @@ git remote add name URL
 
 git rebase ToGoalBranch
 git merge kinderBranch
+
+git what
