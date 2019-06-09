@@ -24,4 +24,4 @@ git merge kinderBranch
 
 git rebase --onto master server client
 fix bug1
-
+fix bug2
