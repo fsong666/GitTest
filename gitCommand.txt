@@ -1,0 +1,19 @@
+git commit -a -m""
+git rm --cahed file
+
+git checkout file
+git checkout branchName
+git checkout -b localBranch origin/branch
+
+git log --oneline --decorate --graph --all
+
+git branch -a
+ 
+git branch -r -d branchName
+git push origin :branchName
+git push origin --delete remoteBranch
+
+git clone -o RemoteRepositoryName URL
+git remote add name URL
+
+
