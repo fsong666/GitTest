@@ -1,0 +1,12 @@
+git commit -a -m""
+
+git checkout file
+git checkout branchName
+
+git log --oneline --decorat --graph --all
+
+git branch -r 
+git branch -r -d branchName
+git push orgin :branchName
+
+git clone -o RemoteRepositoryName URL
