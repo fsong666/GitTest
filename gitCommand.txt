@@ -20,4 +20,3 @@ git remote add name URL
 [master]git merge otherbranch[bug]
 
 git rebase --onto master server client
-
