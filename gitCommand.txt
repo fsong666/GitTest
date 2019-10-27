@@ -23,4 +23,18 @@ git remote show origin
 [bug]git rebase ToGoalBranch[master]
 [master]git merge otherbranch[bug]
 
-git rebase --onto master server client
+
+How rollback git commit:
+git reset --soft HEAD~ // only cancel commit
+git reset --mixed     // only cancel commit and index 
+git reset --hard     // cancel commit, index, and Working Directory include the changed code after laste cmmoit
+1.假如你不想要commit，和所对应的代码：
+（1）git reset --hard commitId
+（2）git push --force, 强制push,远程的最新的一次commit被删除
+
+2.假如你只是想修改上次提交的代码，做一次更完美的commit，可以这样
+（1）git reset commitId，(注：不要带--hard)到上个版本
+（2）git stash，暂存修改
+（3）git push --force, 强制push,远程的最新的一次commit被删除
+（4）git stash pop，释放暂存的修改，开始修改代码
+（5）git add . -> git commit -m "massage" -> git push
